@@ -11,6 +11,7 @@
   import Registro from "./src/Registro";
   import ConfigScreen from "./src/screens/ConfigScreen";
   import Competencias from "./src/screens/Competencias";
+  import index from "./src/screens/index";
 
   const Tab = createBottomTabNavigator();
 
@@ -42,6 +43,7 @@
       <Tab.Screen name="Register" component={Registro} options={{ headerShown: false }} />
       <Tab.Screen name="Config" component={ConfigScreen} options={{ headerShown: false }} />
       <Tab.Screen name="Competencias" component={Competencias} options={{ headerShown: false }} />
+      <Tab.Screen name="Index" component={index} options={{ headerShown: false }} />
     </Tab.Navigator>
   );
 
